@@ -22,7 +22,7 @@ const Hero = () => {
         </h1>
         <div className="flex justify-start">
           <h1 className=" text-3xl  md:text-6xl mt-4 font-bold tracking-wide">
-            I'm a{" "}
+            <p>I&apos;m a</p>
             <div className="pt-4 whitespace-nowrap bg-gradient-to-r from-blue-800 to-blue-400 bg-clip-text text-transparent">
               <TypeAnimation
                 sequence={[
