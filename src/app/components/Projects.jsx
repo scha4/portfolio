@@ -38,9 +38,11 @@ const Projects = () => {
                 </div>
               </div>
               <div className="lg:ml-12 max-w-lg">
-                <img
+                <Image
                   src={item.image}
                   alt="project image"
+                  height={300}
+                  width={700}
                   className="mt-6 md:mt-12 lg:mt-0 w-full shadow-lg"
                 />
               </div>

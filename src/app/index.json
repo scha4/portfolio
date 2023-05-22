@@ -20,7 +20,7 @@
   "about": {
     "key": 1,
     "title": "About me",
-    "image": "../samFootball.png",
+    "image": "/samFootball.png",
     "primary": "I'm a self-taught developer based in Washington DC, passionate about turning ideas into elegant interfaces. My expertise includes HTML5, CSS, React, and JavaScript, along with Bootstrap and Tailwind. I'm constantly expanding my skillset and dedicated to improving my craft.",
 
     "secondary": "Driven by a love for software development, I focus on creating immersive user experiences and robust web applications. I embrace new languages and frameworks to enhance my problem-solving abilities. Attention to detail and a user-centric approach are key aspects of what I love to do. I'm excited to bring my skills and passion to new challenges."

@@ -3,16 +3,24 @@ import React from "react";
 import config from "../index.json";
 import { MdMenu, MdClose } from "react-icons/md";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Header() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   const navigation = config.navigation;
+  const about = config.about;
   return (
     <>
       <div className="">
         <div className="flex relative justify-between items-center ">
-          <img src="./samchalogo.png" className="w-20 mt-3 ml-3 " />
+          <Image
+            src="/samchalogo.png"
+            alt="about"
+            className="ml-4 mt-4"
+            width={90}
+            height={90}
+          />
           <ul className="hidden md:flex px-8 lg:px-32 gap-x-10 content-center ">
             {navigation.map((item) => (
               <li className="mt-6 cursor-pointer font-bold " key={item.title}>

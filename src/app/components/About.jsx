@@ -1,5 +1,6 @@
 import React from "react";
 import config from "../index.json";
+import Image from "next/image";
 
 const About = () => {
   const about = config.about;
@@ -13,10 +14,10 @@ const About = () => {
       </h1>
       <div className="mt-16 flex flex-col md:flex-row align-center items-center">
         <div className="w-1/2 flex justify-center content-center">
-          <img
+          <Image
             src={about.image}
             alt="about"
-            className="shadow-lg border-2 border-white"
+            className="shadow-lg border-2 border-white "
             width={400}
             height={400}
           />
