@@ -1,0 +1,64 @@
+{
+  "navigation": [
+    {
+      "title": "About",
+      "url": "http://www.example.com/about"
+    },
+    {
+      "title": "Projects",
+      "url": "http://www.example.com/portfolio"
+    },
+    {
+      "title": "Contact",
+      "url": "http://www.example.com/contact"
+    }
+  ],
+  "hero": {
+    "name": "Sam.",
+    "subtitle": "Front-end Developer."
+  },
+  "about": {
+    "key": 1,
+    "title": "About me",
+    "image": "../samFootball.png",
+    "primary": "I'm a self-taught developer based in Washington DC, passionate about turning ideas into elegant interfaces. My expertise includes HTML5, CSS, React, and JavaScript, along with Bootstrap and Tailwind. I'm constantly expanding my skillset and dedicated to improving my craft.",
+
+    "secondary": "Driven by a love for software development, I focus on creating immersive user experiences and robust web applications. I embrace new languages and frameworks to enhance my problem-solving abilities. Attention to detail and a user-centric approach are key aspects of what I love to do. I'm excited to bring my skills and passion to new challenges."
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Project 1",
+        "description": "Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: complement the information: the skills learned or reinforced in its realization and how you faced it, prove to be proactive in the search for solutions.",
+        "url": "https://mandulja.vercel.app/",
+        "github": "https://github.com/scha4/mandulja",
+        "image": "/project1screenshot.png"
+      },
+      {
+        "title": "Project 2",
+        "description": "Demonstrate in this description the skills of a programmer: such as having commitment, having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.",
+        "url": "http://www.example.com/project2",
+        "github": "http://www.example.com/github",
+        "image": "/project1screenshot.png"
+      },
+      {
+        "title": "Project 3",
+        "description": "If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.",
+        "url": "http://www.example.com/project3",
+        "github": "http://www.example.com/github",
+        "image": "/project1screenshot.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "This is where you can describe about your contact. The more you describe about your contact, the more chances you have!",
+    "formId": "your-form-id"
+  },
+  "footer": {
+    "linkedin": "https://linkedin.com/in/samcha4",
+    "twitter": "https://twitter.com/samchatech",
+    "github": "https://github.com/scha4"
+  }
+}
