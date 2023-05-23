@@ -29,8 +29,8 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Project 1",
-        "description": "Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: complement the information: the skills learned or reinforced in its realization and how you faced it, prove to be proactive in the search for solutions.",
+        "title": "Mandeulja Website",
+        "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
         "url": "https://mandulja.vercel.app/",
         "github": "https://github.com/scha4/mandulja",
         "image": "/project1screenshot.png"
