@@ -51,7 +51,11 @@ const About = () => {
             <SiRedux size={40} />
           </div>
           <div className="mt-6 mx-auto md:mx-0 border-2 border-white py-1 px-2 w-36 text-center font-bold">
-            <a href={"#"} className="about__resume text-white text-l">
+            <a
+              download="SWEresume.pdf"
+              href="/SWEresume.pdf"
+              aria-label="Download Resume"
+            >
               View Resume
             </a>
           </div>
