@@ -1,7 +1,14 @@
 import React from "react";
 import config from "../index.json";
 import Image from "next/image";
-
+import { AiFillHtml5 } from "react-icons/ai";
+import { FaCss3Alt } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiTailwindcss,
+  SiBootstrap,
+  SiRedux,
+} from "react-icons/si";
 const About = () => {
   const about = config.about;
   return (
@@ -34,6 +41,14 @@ const About = () => {
           </div>
           <div className="mt-6">
             <span>{about.fourth}</span>
+          </div>
+          <div className="flex gap-2">
+            <AiFillHtml5 size={40} />
+            <FaCss3Alt size={40} />
+            <SiJavascript size={40} />
+            <SiTailwindcss size={40} />
+            <SiBootstrap size={40} />
+            <SiRedux size={40} />
           </div>
           <div className="mt-6 mx-auto md:mx-0 border-2 border-white py-1 px-2 w-36 text-center font-bold">
             <a href={"#"} className="about__resume text-white text-l">

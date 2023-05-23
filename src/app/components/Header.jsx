@@ -4,6 +4,7 @@ import config from "../index.json";
 import { MdMenu, MdClose } from "react-icons/md";
 import { useState } from "react";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 export default function Header() {
   const [nav, setNav] = useState(false);
@@ -23,8 +24,19 @@ export default function Header() {
           />
           <ul className="hidden md:flex px-8 lg:px-32 gap-x-10 content-center ">
             {navigation.map((item) => (
-              <li className="mt-6 cursor-pointer font-bold " key={item.title}>
-                <a href={`#${item.title}`}>{item.title}</a>
+              <li
+                className="mt-6 cursor-pointer font-bold  hover:text-blue-400 delay-100 "
+                key={item.title}
+              >
+                <Link
+                  to={item.title}
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>
@@ -42,7 +54,15 @@ export default function Header() {
         >
           {navigation.map((item) => (
             <li className="mt-2 cursor-pointer" key={item.title}>
-              <a href={`#${item.title}`}>{item.title}</a>
+              <Link
+                to={item.title}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                {item.title}
+              </Link>
             </li>
           ))}
         </ul>

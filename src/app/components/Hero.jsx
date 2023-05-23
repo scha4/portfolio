@@ -7,9 +7,11 @@ import {
   AiOutlineGithub,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-
+import { Link } from "react-scroll";
 const Hero = () => {
   const hero = config.hero;
+  const footer = config.footer;
+  const about = config.about;
 
   return (
     <section className="h-screen bg-white  ">
@@ -40,20 +42,39 @@ const Hero = () => {
             </div>
           </h1>
         </div>
-        <a
-          href="#About"
-          className="text-2xl font-bold p-0.5 mt-6 w-44 bg-gradient-to-r from-blue-400  to-indigo-500"
+        <Link
+          to="About"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className="text-2xl font-bold p-0.5 mt-6 w-44 bg-gradient-to-r from-blue-400  to-indigo-500  "
         >
-          <div className="bg-white">
-            <span className="block text-center py-0.5 px-2  bg-white font-bold bg-gradient-to-r from-blue-400  to-indigo-800 bg-clip-text text-transparent">
+          <div className="bg-white ">
+            <span className="block text-center py-0.5 px-2  bg-white font-bold bg-gradient-to-r from-blue-400  to-indigo-800 bg-clip-text text-transparent  hover:text-blue-300 delay-100">
               Learn More
             </span>
           </div>
-        </a>
+        </Link>
         <div className="flex gap-4 mt-3">
-          <AiOutlineTwitter size={40} className="fill-blue-700" />
-          <AiOutlineGithub size={40} className="fill-blue-700" />
-          <AiOutlineLinkedin size={40} className="fill-blue-700" />
+          <a rel="noreferrer" href={footer.twitter} target="_blank">
+            <AiOutlineTwitter
+              size={40}
+              className="fill-slate-600 hover:fill-blue-600"
+            />
+          </a>
+          <a rel="noreferrer" href={footer.github} target="_blank">
+            <AiOutlineGithub
+              size={40}
+              className="fill-slate-600 hover:fill-blue-600"
+            />
+          </a>
+          <a rel="noreferrer" href={footer.linkedin} target="_blank">
+            <AiOutlineLinkedin
+              size={40}
+              className="fill-slate-600 hover:fill-blue-600"
+            />
+          </a>
         </div>
       </div>
     </section>
