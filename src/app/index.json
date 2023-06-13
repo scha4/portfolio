@@ -36,18 +36,18 @@
         "image": "/project1screenshot.png"
       },
       {
-        "title": "Project 2",
-        "description": "Demonstrate in this description the skills of a programmer: such as having commitment, having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.",
-        "url": "http://www.example.com/project2",
-        "github": "http://www.example.com/github",
-        "image": "/project1screenshot.png"
+        "title": "Secret Chat",
+        "description": "A fully functional chat app with authentication and protected routing. Users can create an account and it will be stored in firebase. This app was created using React JS, firebase, vite, and tailwind CSS ",
+        "url": "https://secretchat-pink.vercel.app/login",
+        "github": "https://github.com/scha4/superchat",
+        "image": "/secretchat.jpg"
       },
       {
-        "title": "Project 3",
-        "description": "If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.",
-        "url": "http://www.example.com/project3",
-        "github": "http://www.example.com/github",
-        "image": "/project1screenshot.png"
+        "title": "Nexus Works",
+        "description": "A fully functional website created for a client using React JS, CSS, React router, and Email JS.",
+        "url": "https://master--celadon-melomakarona-0ef17c.netlify.app/",
+        "github": "https://github.com/scha4/nexusworks",
+        "image": "/nexusworksscreen.png"
       }
     ]
   },
