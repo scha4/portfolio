@@ -13,7 +13,7 @@ function page() {
       <Hero />
       <About />
       <Projects />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <Footer />
     </>
   );
