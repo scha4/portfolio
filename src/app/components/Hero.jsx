@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="pt-4 whitespace-nowrap bg-gradient-to-r from-blue-800 to-blue-400 bg-clip-text text-transparent">
               <TypeAnimation
                 sequence={[
-                  "Front-end Developer.",
+                  "Full-stack Developer.",
                   2000, // Waits 1s
                   "React-Developer.",
                   2500, // Waits 2s
